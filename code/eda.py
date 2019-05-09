@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from random import shuffle
 import json
 
-dataset = "cora"
+dataset = "friends"
 edges_path = "../input/%s/%s.cites"%(dataset, dataset)
 content_path = "../input/%s/%s.content"%(dataset, dataset)
 
@@ -40,9 +40,9 @@ for node, int_node in node_int_mapping.items():
 for edge in edges_lines:
     G.add_edge(node_int_mapping[edge[0]], node_int_mapping[edge[1]])
 
-# plt.figure(figsize=(14, 24))
-# nx.draw(G, node_size=30, width=0.2, nodelist=nodes, node_color=node_color)
-# plt.savefig('graph.png', transparent=True)
+#plt.figure(figsize=(14, 24))
+nx.draw(G, node_size=30, width=0.2, nodelist=nodes, node_color=node_color)
+plt.savefig('graph.png', transparent=True)
 
 spl = dict(nx.all_pairs_shortest_path_length(G))
 
@@ -56,11 +56,12 @@ val_samples = []
 val_counter = 0
 test_samples = []
 
+print(len(content_data))
 for c in content_data:
     if train_class_counter[c['label']] <20:
         train_samples.append(c)
         train_class_counter[c['label']] += 1
-    elif val_counter < 500:
+    elif val_counter < 10:
         val_samples.append(c)
         val_counter += 1
     else:

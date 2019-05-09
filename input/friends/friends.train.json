@@ -1,0 +1,602 @@
+[
+    {
+        "node": "89",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "26",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "33",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "46",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "75",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "27",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "100",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "16",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "7",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "6",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "82",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "42",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "77",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "10",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "84",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "51",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "37",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "63",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "99",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "80",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "92",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "62",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "4",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "98",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "31",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "94",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "90",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "32",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "70",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "19",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "24",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "74",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "79",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "87",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "12",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "54",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "40",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "88",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "67",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "50",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "3",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "25",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "22",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "60",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "76",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "65",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "72",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "95",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "53",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "41",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "21",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "1",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "47",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "45",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "5",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "17",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "29",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "18",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "30",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "49",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    }
+]

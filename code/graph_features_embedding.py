@@ -10,11 +10,12 @@ from sklearn.model_selection import train_test_split
 from random import sample, choice
 from sklearn.neighbors import NearestNeighbors
 import networkx as nx
+from keras_tqdm import TQDMNotebookCallback, TQDMCallback
 
 
-dataset = "cora"
+dataset = "friends"
 #Accuracy test : 0.7635396518375241
-n_features = 1433
+n_features = 4 
 batch_size = 32
 n_neighbors = 5
 
@@ -134,8 +135,8 @@ model_g = get_graph_embedding_model(len(node_int_mapping), n_features=n_features
 
 early = EarlyStopping(monitor="val_loss", patience=50, restore_best_weights=True)
 
-model_g.fit_generator(gen(train, node_int_mapping), validation_data=gen(test, node_int_mapping), nb_epoch=400, verbose=2,
-                    callbacks=[early], steps_per_epoch=1000, validation_steps=100)
+model_g.fit_generator(gen(train, node_int_mapping), validation_data=gen(test, node_int_mapping), nb_epoch=40, verbose=2,
+                    callbacks=[TQDMCallback(),early], steps_per_epoch=1000, validation_steps=100)
 
 model_g.save_weights("graph_model_2.h5")
 
@@ -194,7 +195,7 @@ model.load_weights("graph_model_2.h5", by_name=True)
 early = EarlyStopping(monitor="val_acc", patience=10000, restore_best_weights=True)
 
 model.fit([X_train, X_train_2, X_G_train], Y_train, validation_data=([X_val, X_val_2, X_G_val], Y_val),
-          nb_epoch=5000, verbose=2, callbacks=[early])
+          nb_epoch=500, verbose=2, callbacks=[TQDMCallback(),early])
 
 Y_test_pred = model.predict([X_test, X_test_2, X_G_test])
 Y_test_pred = Y_test_pred.argmax(axis=-1).ravel()
