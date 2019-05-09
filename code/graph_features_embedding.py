@@ -1,4 +1,11 @@
 import json
+import sys
+
+if len(sys.argv) < 2:
+    print("Provide dataset, for instance cora")
+    sys.exit(1)
+
+from tqdm import tqdm
 
 import numpy as np
 from keras.callbacks import EarlyStopping
@@ -12,10 +19,8 @@ from sklearn.neighbors import NearestNeighbors
 import networkx as nx
 from keras_tqdm import TQDMNotebookCallback, TQDMCallback
 
-
-dataset = "friends"
-#Accuracy test : 0.7635396518375241
-n_features = 4 
+dataset = sys.argv[1]
+#n_features = 4 
 batch_size = 32
 n_neighbors = 5
 
@@ -25,6 +30,8 @@ test_samples = json.load(open("../input/%s/%s.test.json" % (dataset, dataset), '
 edges_lines = json.load(open("../input/%s/%s.graph.json" % (dataset, dataset), 'r'))
 class_int_mapping, node_int_mapping, node_int_class_mapping, node_class_mapping = \
     json.load(open("../input/%s/%s.mappings.json" % (dataset, dataset), 'r'))
+
+m_features = len(train_samples[0]['features'])
 
 node_int_features_mapping = {node_int_mapping[k['node']]:np.array(k['features']) for k in train_samples+val_samples+test_samples}
 
@@ -36,7 +43,7 @@ for node, int_node in node_int_mapping.items():
 for edge in edges_lines:
     G.add_edge(node_int_mapping[edge[0]], node_int_mapping[edge[1]])
 
-spl = dict(nx.all_pairs_shortest_path_length(G))
+spl = dict(tqdm(nx.all_pairs_shortest_path_length(G)))
 
 
 def get_graph_embedding_model(n_nodes, n_features):

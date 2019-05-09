@@ -1,10 +1,16 @@
+import sys
+from tqdm import tqdm
 from collections import Counter, defaultdict
 import networkx as nx
 import matplotlib.pyplot as plt
 from random import shuffle
 import json
 
-dataset = "friends"
+if len(sys.argv) < 2:
+    print("Provide dataset, for instance cora")
+    sys.exit(1)
+
+dataset = sys.argv[1]
 edges_path = "../input/%s/%s.cites"%(dataset, dataset)
 content_path = "../input/%s/%s.content"%(dataset, dataset)
 
@@ -34,19 +40,19 @@ nodes = list(range(len(node_int_mapping)))
 node_color = [colors[node_int_class_mapping.get(n, -1)%8] for n in nodes]
 G=nx.Graph()
 
-for node, int_node in node_int_mapping.items():
+for node, int_node in tqdm(node_int_mapping.items()):
     G.add_node(int_node)
 
-for edge in edges_lines:
+for edge in tqdm(edges_lines):
     G.add_edge(node_int_mapping[edge[0]], node_int_mapping[edge[1]])
 
 #plt.figure(figsize=(14, 24))
-nx.draw(G, node_size=30, width=0.2, nodelist=nodes, node_color=node_color)
-plt.savefig('graph.png', transparent=True)
+#nx.draw(G, node_size=30, width=0.2, nodelist=nodes, node_color=node_color)
+#plt.savefig('graph.png', transparent=True)
 
-spl = dict(nx.all_pairs_shortest_path_length(G))
+spl = dict(tqdm(nx.all_pairs_shortest_path_length(G)))
 
-print(spl)
+print("nx.all_pairs_shortest_path_length.len:", len(spl))
 
 shuffle(content_data)
 
@@ -57,7 +63,7 @@ val_counter = 0
 test_samples = []
 
 print(len(content_data))
-for c in content_data:
+for c in tqdm(content_data):
     if train_class_counter[c['label']] <20:
         train_samples.append(c)
         train_class_counter[c['label']] += 1
