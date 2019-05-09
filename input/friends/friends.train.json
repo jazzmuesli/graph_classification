@@ -1,126 +1,16 @@
 [
     {
-        "node": "89",
-        "features": [
-            0.0,
-            1.0,
-            1.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "26",
-        "features": [
-            0.0,
-            1.0,
-            0.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "33",
+        "node": "595",
         "features": [
             1.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "46",
-        "features": [
-            0.0,
-            0.0,
             1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "75",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "27",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "100",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "16",
-        "features": [
-            1.0,
-            0.0,
             0.0,
             0.0
         ],
         "label": "medium"
     },
     {
-        "node": "7",
-        "features": [
-            1.0,
-            1.0,
-            1.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "6",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "82",
-        "features": [
-            1.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "42",
-        "features": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "77",
+        "node": "218",
         "features": [
             1.0,
             0.0,
@@ -130,247 +20,87 @@
         "label": "medium"
     },
     {
-        "node": "10",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "84",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            1.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "51",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "37",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "63",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "99",
-        "features": [
-            0.0,
-            1.0,
-            0.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "80",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "92",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "62",
+        "node": "296",
         "features": [
             1.0,
             1.0,
-            0.0,
-            1.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "4",
-        "features": [
-            1.0,
-            0.0,
             1.0,
             0.0
         ],
         "label": "high"
     },
     {
-        "node": "98",
-        "features": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "31",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "94",
-        "features": [
-            1.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "90",
+        "node": "616",
         "features": [
             1.0,
             1.0,
-            0.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "32",
-        "features": [
-            1.0,
-            0.0,
             0.0,
             0.0
         ],
         "label": "medium"
     },
     {
-        "node": "70",
-        "features": [
-            1.0,
-            1.0,
-            0.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "19",
-        "features": [
-            1.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "24",
-        "features": [
-            1.0,
-            1.0,
-            1.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "74",
+        "node": "363",
         "features": [
             0.0,
             0.0,
-            1.0,
-            0.0
+            0.0,
+            1.0
         ],
         "label": "low"
     },
     {
-        "node": "79",
+        "node": "222",
         "features": [
             1.0,
-            1.0,
             0.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "87",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "12",
-        "features": [
-            0.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "54",
-        "features": [
-            0.0,
-            1.0,
-            0.0,
-            0.0
-        ],
-        "label": "low"
-    },
-    {
-        "node": "40",
-        "features": [
-            0.0,
-            1.0,
             1.0,
             0.0
         ],
         "label": "medium"
     },
     {
-        "node": "88",
+        "node": "963",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "420",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "852",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "294",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "285",
         "features": [
             0.0,
             0.0,
@@ -380,7 +110,77 @@
         "label": "low"
     },
     {
-        "node": "67",
+        "node": "166",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "559",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "743",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "982",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "150",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "589",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "532",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "878",
         "features": [
             1.0,
             1.0,
@@ -390,7 +190,107 @@
         "label": "high"
     },
     {
-        "node": "50",
+        "node": "511",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "781",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "708",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "422",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "482",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "968",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "440",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "128",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "192",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "647",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "383",
         "features": [
             1.0,
             0.0,
@@ -400,7 +300,7 @@
         "label": "medium"
     },
     {
-        "node": "3",
+        "node": "263",
         "features": [
             1.0,
             1.0,
@@ -410,22 +310,242 @@
         "label": "high"
     },
     {
-        "node": "25",
+        "node": "692",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "43",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "502",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "674",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "249",
+        "features": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "812",
+        "features": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "109",
+        "features": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "252",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "125",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "974",
         "features": [
             1.0,
             1.0,
             0.0,
             0.0
         ],
+        "label": "medium"
+    },
+    {
+        "node": "577",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "362",
+        "features": [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "268",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "618",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "384",
+        "features": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "44",
+        "features": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "low"
+    },
+    {
+        "node": "871",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
         "label": "high"
     },
     {
-        "node": "22",
+        "node": "188",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "689",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "410",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "label": "high"
+    },
+    {
+        "node": "510",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "512",
         "features": [
             1.0,
             0.0,
-            1.0,
+            0.0,
             0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "436",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+        ],
+        "label": "medium"
+    },
+    {
+        "node": "108",
+        "features": [
+            1.0,
+            1.0,
+            0.0,
+            1.0
         ],
         "label": "high"
     },
@@ -434,169 +554,49 @@
         "features": [
             1.0,
             0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "76",
-        "features": [
             1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "65",
-        "features": [
-            1.0,
-            1.0,
-            0.0,
-            0.0
+            1.0
         ],
         "label": "high"
     },
     {
-        "node": "72",
-        "features": [
-            0.0,
-            1.0,
-            1.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "95",
-        "features": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "53",
-        "features": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "41",
+        "node": "672",
         "features": [
             1.0,
             1.0,
-            0.0,
-            0.0
-        ],
-        "label": "high"
-    },
-    {
-        "node": "21",
-        "features": [
-            1.0,
-            0.0,
             1.0,
             0.0
         ],
         "label": "high"
     },
     {
-        "node": "1",
+        "node": "365",
         "features": [
             1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "47",
-        "features": [
             1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "45",
-        "features": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "5",
-        "features": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "17",
-        "features": [
-            0.0,
-            1.0,
-            1.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "29",
-        "features": [
-            0.0,
-            1.0,
-            1.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "18",
-        "features": [
-            1.0,
-            0.0,
-            1.0,
-            0.0
-        ],
-        "label": "medium"
-    },
-    {
-        "node": "30",
-        "features": [
-            1.0,
-            0.0,
             1.0,
             0.0
         ],
         "label": "high"
     },
     {
-        "node": "49",
+        "node": "744",
         "features": [
             1.0,
-            0.0,
-            0.0,
+            1.0,
+            1.0,
             0.0
         ],
-        "label": "medium"
+        "label": "high"
+    },
+    {
+        "node": "787",
+        "features": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ],
+        "label": "high"
     }
 ]
